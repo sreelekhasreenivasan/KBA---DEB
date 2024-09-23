@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a,b;
+        a=15, b=25;
+        //with temp variable
+        k=a;
+        document.write("value of a is ",a)
+        document.write("<br>value of b is ",b)
+        document.write("<br> swaped numbers with temperory variable:<br>value of a is ",a=b,"<br>value of b is ",k)
+
+        //without temp variable
+        let x,y;
+        x=10, y=20;
+        document.write("<br><br><br>value of x is ",y)
+        document.write("<br>value of y is ",x)
+        document.write("<br>swaped numbers without temperory variable:<br>value of x is ",y,"<br>value of y is ",x)
+
+
+        //    Program to convert Celsius to fahrenheit
+         {
+            t=45
+            f=((t*9/5)+32)
+            document.write("<br><br>temperature in celsius is : ",t,"<br>")
+            document.write("temperature in fahrenheit is : ",f,"<br>")
+
+        }
+
+        //Program to find square of a number
+        {
+            a=5
+            s=a*a
+            document.write("<br>square of no. is : ",s,"<br>")
+        }
+        // Program to find cube of a number
+        {
+            a=5
+            c=a*a*a
+            document.write("cube of no. is : ",c,"<br>")
+
+        }
+        // Program to find area of square, circle, rectangle, triangle
+        {
+            a1=4
+            r1=7
+            l1=5
+            w1=6
+            b1=7
+            h1=8
+            const pi=3.14
+            s=a1*a1
+            c=pi*r1*r1
+            r=l1*w1
+            t=.5*b1*h1
+            document.write("<br>lenght of square = ",a1,"<br>")
+            document.write("area of square is : ",s,"<br><br>")
+            document.write("radidus of circle = ",r1,"<br>")
+            document.write("area of circle is : ",c,"<br>")
+            document.write("<br>length of rectangle = ",l1,"<br>")
+            document.write("width of rectangle = ",w1,"<br>")
+            document.write("area of rectangle is : ",r,"<br>")
+            document.write("<br>base of triangle = ",b1,"<br>")
+            document.write("height of triangle = ",h1,"<br>")
+            document.write("area of triangle is : ",t,"<br>")
+        }
+       
+
+        
+
+</script>
+<script>
+     // Program to find perimeter of rectangle, square, circle, triangle
+     {
+            let a2=5;
+            let r2=8;
+            let l2=9;
+            let w2=3;
+            let g2=2;
+            let h2=4;
+            let i2=7;
+            const pi=3.14
+            let ci= 2*pi*r2;
+            let sq= 4*a2;
+            let re= 2*(l2+w2);
+            let tr= g2+h2+i2;
+            document.write("<br>perimeter of square is : "+ sq +"<br>");
+            document.write("perimeter of circle is : "+ ci +"<br>");
+            document.write("perimeter of rectangle is : "+ re +"<br>");
+            document.write("perimeter of triangle is : "+ tr +"<br><br>");
+        }
+</script>
+<script>
+    // Program to find simple interest & compound interest
+{
+  let p = 500;  // Principal
+  let r = 5;    // Rate of interest
+  let t = 5;    // Time
+
+  // Simple Interest calculation
+  let si = (p * r * t) / 100;
+
+  // Compound Interest calculation
+  let a = p * (Math.pow((1 + r / 100), t));  // A = P(1 + r/n)^nt
+  let ci = a - p;  // Compound Interest = Amount - Principal
+
+  // Display the results
+  document.write("Simple interest is: " + si + "<br>");
+  document.write("Compound interest is: " + ci + "<br><br>");
+
+}
+{
+  // Program to find largest among two numbers
+  a=10
+  b=20
+  if(a<b){
+      document.write("b is largest","<br>")
+  }
+  else{
+      document.write("a is largest","<br><br>")
+  }
+
+}
+// program to find smallest among three numbers
+{
+  let a = 100;
+  let b = 200;
+  let c = 150;
+
+  let largest;
+
+  if (a > b && a > c) {
+      largest = a;
+  } else if (b > a && b > c) {
+      largest = b;
+  } else {
+      largest = c;
+  }
+  document.write("largest number is ",largest,"<br>")
+}
+// Program to check the given number is zero,positive and negative -->
+{
+  a=44
+  if (a>0){
+      document.write("number is positive","<br>")
+  }
+  else if(a<0){
+      document.write("number is negative","<br>")
+  }
+  else{
+      document.write("number is zero","<br>")
+  }
+}
+</script>
+</body>
+</html>
