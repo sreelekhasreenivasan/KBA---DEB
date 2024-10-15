@@ -1,9 +1,0 @@
-node initialize - npm init
-install express
-To ignore nod by creating a folder ".gitignore" and type the file name to ignore
-installing express using command "npm install express"
-Create a file  ".gitingore" to ignore files those do not want to push in git. Add the library name.
-Change the default js type into js6-->"type":"module" in package.json.
-Create a file index.js and write the program to initailize a port
-Then first add the express library using import keyword.
-And use the imported express to initialize the port.(Check the steps in index.js file)
