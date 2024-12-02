@@ -35,11 +35,11 @@
         <div class="min-h-screen ml-24 w-3/5 flex flex-col">
 
             <h2 class="text-2xl font-bold mb-2 pt-8">Account Settings</h2>
-            <div class="mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
+            <div class="mx-auto my-8 p-6 bg-white rounded-lg shadow-lg flex flex-row gap-44">
                 <div class="mb-8 bg-white rounded-lg shadow-lg">
                     <h3 class="text-xl font-semibold mb-2">Change Passsword</h3>
                     <div class="p-4 bg-purple-50 rounded shadow mb-6">
-                        <form class="space-y-4">
+                        <form class="space-y-4 space-x-4">
                             <div>
                                 <input type="password" id="current-password" name="current-password"
                                     class="w-full p-2 border rounded" placeholder="Enter current password">
@@ -59,22 +59,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
-                    <h4 class="text-lg font-bold mb-2">Manage User Roles</h4>
-                    <div class="p-4 bg-purple-50 rounded shadow mb-6">
-
-                        <form>
-                            <label for="user-roles" class="block font-medium mb-2">Assign Admin Role:</label>
-                            <select id="user-roles" name="user-roles" class="w-full p-2 border rounded">
-                                <option value="user1">user1 (Regular User)</option>
-                                <option value="user2">user2 (Admin)</option>
-                                <option value="user3">user3 (Regular User)</option>
-                            </select>
-                            <button type="submit" class="mt-4 bg-green-500 text-white px-4 py-2 rounded">Update
-                                Role</button>
-                        </form>
-                    </div>
-                </div>
+                
                 <div class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-lg">
 
                     <h3 class="text-xl font-semibold mb-2">System Settings</h3>
